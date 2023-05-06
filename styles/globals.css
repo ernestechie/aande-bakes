@@ -26,3 +26,12 @@ body {
 .polygon {
   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
 }
+
+.card {
+  transform: scale(1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  z-index: 5;
+}

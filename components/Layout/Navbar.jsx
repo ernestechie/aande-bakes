@@ -5,18 +5,9 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className='bg-white flex items-center justify-end w-full p-6 px-4 lg:px-16 fixed top-0 left-0 z-20'>
-      <h1 className='w-[100px]'>A&E Bakes</h1>
-      <div className='flex gap-8 w-full justify-end'>
-        <div className='items-center gap-6 hidden md:flex w-1/2 mx-auto'>
-          <div className='w-full'>
-            <input
-              type='text'
-              placeholder='Search'
-              className='bg-gray text-sm text-dark w-full p-4 px-8 outline-0 rounded-full border-[1px] border-[#ddd]'
-            />
-          </div>
-        </div>
+    <nav className='bg-white flex items-center justify-between w-full p-6 px-4 lg:px-16 fixed top-0 left-0 z-20'>
+      <h1>A&E Bakes</h1>
+      <div className='flex gap-8'>
         <div className='items-center gap-6 hidden sm:flex justify-end'>
           <Link
             href='/'
