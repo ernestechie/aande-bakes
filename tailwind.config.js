@@ -1,9 +1,11 @@
+const { join } = require('path');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './layouts/**/*.{js,ts,jsx,tsx,mdx}',
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    join(__dirname, './pages/**/*.{js,ts,jsx,tsx,mdx}'),
+    join(__dirname, './layout/**/*.{html,js,ts,jsx,tsx,mdx}'),
+    join(__dirname, './components/**/*.{html,js,ts,jsx,tsx,mdx}'),
   ],
   theme: {
     extend: {

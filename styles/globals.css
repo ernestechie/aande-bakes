@@ -1,8 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+.bg-blur {
+  background: transparent;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.polygon {
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+}
+
+.card {
+  transform: scale(1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  z-index: 5;
 }
