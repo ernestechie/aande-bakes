@@ -1,4 +1,4 @@
-import { HeadWrapper, HeroSection, Navbar, Products } from '..';
+import { Footer, HeadWrapper, HeroSection, Navbar, Products } from '..';
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Products />
-      <main></main>
+      <Footer />
     </>
   );
 }
