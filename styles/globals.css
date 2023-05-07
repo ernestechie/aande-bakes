@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
@@ -15,6 +12,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .bg-blur {
@@ -27,11 +25,16 @@ body {
   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
 }
 
-.card {
+.card img {
   transform: scale(1);
+  transition: 0.3s ease-out;
 }
 
 .card:hover {
-  transform: scale(1.02);
   z-index: 5;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in;
 }

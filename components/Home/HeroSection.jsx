@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <header className='bg-gray w-full'>
+    <header className='bg-light w-full'>
       <Wrapper>
         <section className='mt-8 sm:mt-16 w-full gap-4 min-h-[512px] md:min-h-[460px] items-center'>
           <div className='relative min-h-[512px] md:min-h-[460px] h-full rounded-lg shadow-xl overflow-hidden p-8 bg-accent'>

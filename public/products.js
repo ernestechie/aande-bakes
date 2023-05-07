@@ -8,31 +8,31 @@ import image5 from '../assets/student-pack.jpg';
 
 const products = [
   {
-    _id: 1,
+    _id: '1',
     name: 'A&E Medium - Single',
     imageUrl: image2,
     price: 500,
   },
   {
-    _id: 2,
+    _id: '2',
     name: 'A&E Mini - Pack',
     imageUrl: image1,
     price: 800,
   },
   {
-    _id: 3,
+    _id: '3',
     name: 'A&E Jumbo - Single',
     imageUrl: image3,
     price: 1200,
   },
   {
-    _id: 3,
+    _id: '4',
     name: 'A&E Netflix & Chill Pack',
     imageUrl: image4,
     price: 2000,
   },
   {
-    _id: 4,
+    _id: '5',
     name: 'A&E Student Pack',
     imageUrl: image5,
     price: 2500,
