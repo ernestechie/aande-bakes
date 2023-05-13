@@ -10,7 +10,7 @@ const HeroSection = () => {
     <header className='bg-light w-full'>
       <Wrapper>
         <section className='mt-8 sm:mt-16 w-full gap-4 min-h-[512px] md:min-h-[460px] items-center'>
-          <div className='relative min-h-[512px] md:min-h-[460px] h-full rounded-lg shadow-xl overflow-hidden p-8 bg-accent'>
+          <div className='relative min-h-[600px] sm:min-h-[512px] md:min-h-[460px] h-full rounded-lg shadow-xl overflow-hidden p-8 bg-accent'>
             <div className='relative z-10 pt-8'>
               <p className='text-xl sm:text-2xl font-semibold text-red-100'>
                 3 flavours to choose from

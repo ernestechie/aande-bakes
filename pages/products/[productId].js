@@ -61,7 +61,7 @@ const ProductDetails = (props) => {
                       +
                     </button>
                   </div>
-                  <button className='w-full sm:w-auto px-16 py-4 bg-accent rounded-sm font-semibold text-white'>
+                  <button className='w-full md:w-auto px-16 py-4 bg-accent rounded-sm font-semibold text-white'>
                     Add to cart
                   </button>
                 </div>
